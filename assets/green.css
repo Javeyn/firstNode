@@ -1,12 +1,12 @@
 #content {
     text-align:center;
-    background-color: grey;
+    background-color:lightcoral;
     width: 100vw;
     
 }
 #containerTop {
     display: inline-block;
-    background-color: red;
+    background-color: blanchedalmond;
     width: 95vw;
     height: 50vw;
     border: solid 1px black;
@@ -39,13 +39,13 @@ img {
     display: inline-block;
     width: 90vw;
     height: 15vw;
-    background-color: purple;
+    background-color:yellowgreen;
     border: 1px solid black;
     border-radius: 25px;
 }
 #containerBottom {
     display: inline-block;
-    background-color: blue;
+    background-color:yellowgreen;
     width: 95vw;
     height:50vw;
     border: solid 1px black;
@@ -54,12 +54,49 @@ img {
     z-index: 1;
 }
 
+#topLeft{
+    float:left;
+    border: solid 1px black;
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 50px;
+    border-radius: 25px;
+    background-color:rgb(255, 255, 255, .5);
+}
 
-#bottomLeft, #bottomRight {
+#topRight {
+    float:left;
+    border: solid 1px black;
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 25px;
+    background-color:rgb(255, 255, 255, .5);
+}
+
+#bottomLeft{
     /* display: inline-block; */
     float:left;
     border: solid 1px black;
-    height: 75px;
-    width: 150px;
+    height: 200px;
+    width: 300px;
     margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 50px;
+    border-radius: 25px;
+    background-color:rgb(255, 255, 255, .5);
+}
+
+#bottomRight {
+    float:left;
+    border: solid 1px black;
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 25px;
+    background-color:rgb(255, 255, 255, .5);
 }
