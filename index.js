@@ -8,8 +8,8 @@ var pdfConvert;
 var options = { format: 'Letter' };
 
 const questions = [
-    'Please enter your GitHub username',
-    'Please choose one of the available colors: green, blue, pink, red',
+    'Please enter your GitHub username:',
+    'Please choose one of the available colors: green, blue, pink, red:',
 ];
 
 
@@ -46,9 +46,7 @@ async function getGithub() {
         const { data } = await axios.get(
             `https://api.github.com/users/${user}`
         );
-        const { stars } = await axios.get(
-            `https://api.github.com/users/${user}/starred`
-        );
+     
         data.color = color;
        
         var location = data.location;
