@@ -10,6 +10,7 @@ Being able to pull information from one website to dynamically create items on a
 
 ### My Struggles with the project
 
-This project was a little bit easier for me to grasp, with the exception of the PDF conversions and .gitignore. To Psuedo-code it out, I had to ask the user to select a color and to input their username. Inquirer helps me take those answers and then run a series of functions. It takes the color selection and makes visual changes, and takes the github name and populates 4 fields from data retrieved from your github page. It takes all of those fields and then builds an HTML page, and then converts that into a PDF file. 
+This project was a little bit easier for me to grasp. To Psuedo-code it out, I had to ask the user to select a color and to input their username. Inquirer helps me take those answers and then run a series of functions. It takes the color selection and makes visual changes, and takes the github name and populates 4 fields from data retrieved from your github page. It takes all of those fields and then builds an HTML page. 
 
+### Callouts
 I had to call on a lot of my fellow students to get help on some of these issues. So I want to call out Aslan, Alexa, and Nate for asking my questions before I could!
