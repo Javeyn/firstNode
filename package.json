@@ -1,0 +1,27 @@
+{
+  "name": "firstnode",
+  "version": "1.0.0",
+  "description": "This project is designed to take user input and translate that into a PDF resume. When the file is activated in terminal, it will ask the user to select a color from the choices provided and ask them for their Github user name, and then populate a HTML file with their color selection and a few pieces information from the users GitHub profile, and then convert it into a PDF file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Javeyn/firstNode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Javeyn/firstNode/issues"
+  },
+  "homepage": "https://github.com/Javeyn/firstNode#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "fs": "0.0.1-security",
+    "html-pdf": "^2.2.0",
+    "inquirer": "^7.0.3"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
